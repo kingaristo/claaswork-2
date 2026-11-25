@@ -1,0 +1,14 @@
+pipeline {
+    
+    agent any
+    
+    stages {
+        stage('Hello world') {
+            steps {
+                echo 'Hello world'
+                echo 'welcome to jenkins'
+                echo 'iam leaning devops'
+            }
+        }
+    }
+}
